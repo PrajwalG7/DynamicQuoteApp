@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DynamicQuoteApp</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner">
+        <div class="outerBox">
+          <div class="innerBox">
+            <button id="tweetMe" onclick="tweetNow()">Tweet</button>
+            <div id="quotes"></div>
+            <div id="author"></div>
+            <button onclick=" return getQuotes()" id="getQuotesBtn">
+              New Quotes
+            </button>
+          </div>
+          <h5 id="dev">Made with <b>♥</b> by Prajwal</h5>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js" />
+  </body>
+</html>
